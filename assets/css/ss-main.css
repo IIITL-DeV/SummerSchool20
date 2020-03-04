@@ -3056,89 +3056,118 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
-		.spotlight .content {
-			-moz-flex: 1;
-			-webkit-flex: 1;
-			-ms-flex: 1;
-			flex: 1;
+	.spotlight .content {
+		-moz-flex: 1;
+		-webkit-flex: 1;
+		-ms-flex: 1;
+		flex: 1;
+	}
+
+	.spotlight .content > :last-child {
+		margin-bottom: 0;
+	}
+
+	.spotlight .content header.major {
+		margin: 0 0 2em 0;
+	}
+
+	.spotlight .image {
+		display: inline-block;
+		margin-left: 4em;
+		padding: 0.65em;
+		border-radius: 2.75rem;
+		border: solid 1px;
+	}
+
+	.spotlight .image div {
+		display: block;
+		border-radius: 2.5rem;
+	}
+	
+	@media screen and (min-width: 981px) {
+		.spotlight .image div {
+			background-size: cover;
+			background-image: url("../../images/summerschool/portrait_machine.jpg");
+			height: 35em;
+			width: 20em;
+		}
+	}
+
+	@media screen and (max-width: 980px) and (orientation: landscape) {
+
+		.spotlight .image div {
+			background-size: cover;
+			background-image: url("../../images/summerschool/portrait_machine.jpg");
+			height: 28em;
+			width: 15em;
 		}
 
-			.spotlight .content > :last-child {
-				margin-bottom: 0;
-			}
+	}
 
-			.spotlight .content header.major {
-				margin: 0 0 2em 0;
-			}
+	@media screen and (max-width: 980px) and (orientation: portrait) {
+
+		.spotlight {
+			-moz-flex-direction: column-reverse;
+			-webkit-flex-direction: column-reverse;
+			-ms-flex-direction: column-reverse;
+			flex-direction: column-reverse;
+			text-align: center;
+		}
+
+		.spotlight .content {
+			-moz-flex: 0 1 auto;
+			-webkit-flex: 0 1 auto;
+			-ms-flex: 0 1 auto;
+			flex: 0 1 auto;
+			width: 100%;
+		}
+
+		.spotlight .content header.major h2:after {
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.spotlight .content .actions {
+			-moz-justify-content: center;
+			-webkit-justify-content: center;
+			-ms-justify-content: center;
+			justify-content: center;
+			width: calc(100% + 1em);
+		}
 
 		.spotlight .image {
-			display: inline-block;
-			margin-left: 4em;
-			padding: 0.65em;
-			border-radius: 2.75rem;
-			border: solid 1px;
+			-moz-flex: 0 1 auto;
+			-webkit-flex: 0 1 auto;
+			-ms-flex: 0 1 auto;
+			flex: 0 1 auto;
+			margin-left: 0;
+			margin-bottom: 2em;
 		}
 
-		.spotlight .image img {
-			display: block;
-			border-radius: 2rem;
-			width: 16em;
+		.spotlight .image div {
+			background-size: cover;
+			background-image: url("../../images/summerschool/landscape_robot.jpg");
+			height: 13em;
+			width: 26em;
 		}
 
-		@media screen and (max-width: 980px) {
+	}
 
-			.spotlight {
-				-moz-flex-direction: column-reverse;
-				-webkit-flex-direction: column-reverse;
-				-ms-flex-direction: column-reverse;
-				flex-direction: column-reverse;
-				text-align: center;
-			}
+	@media screen and (max-width: 736px) {
 
-				.spotlight .content {
-					-moz-flex: 0 1 auto;
-					-webkit-flex: 0 1 auto;
-					-ms-flex: 0 1 auto;
-					flex: 0 1 auto;
-					width: 100%;
-				}
-
-					.spotlight .content header.major h2:after {
-						margin-left: auto;
-						margin-right: auto;
-					}
-
-					.spotlight .content .actions {
-						-moz-justify-content: center;
-						-webkit-justify-content: center;
-						-ms-justify-content: center;
-						justify-content: center;
-						width: calc(100% + 1em);
-					}
-
-				.spotlight .image {
-					-moz-flex: 0 1 auto;
-					-webkit-flex: 0 1 auto;
-					-ms-flex: 0 1 auto;
-					flex: 0 1 auto;
-					margin-left: 0;
-					margin-bottom: 2em;
-				}
-
+		.spotlight .image {
+			padding: 0.25em;
 		}
 
-		@media screen and (max-width: 736px) {
-
-			.spotlight .image {
-				padding: 0.35em;
-			}
-
-				.spotlight .image img {
-					width: 12em;
-				}
-
+		.spotlight .image div {
+			background-size: cover;
+			background-image: url("../../images/summerschool/landscape_robot.jpg");
+			height: 9em;
+			width: 18em;
 		}
 
+	}
+	
 	.spotlight .image {
 		border-color: rgba(255, 255, 255, 0.35);
 	}
