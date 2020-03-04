@@ -70,11 +70,36 @@ ul img{
 	width: 160px;
 }
 
-#schedule{
+ #schedule{
 	width: 100%;
 	height: auto;
+} 
+
+#time {
+	background-size: contain;
+	background-image: url("../../images/coding/coding.png");
+	width: 48em;
+	height: fit-content;
+	max-width: calc(100% - 4em);
+	margin: 0 auto;
+	padding: 0%;
 }
 
+@media screen and (max-width: 480px) {
+
+	#time {
+		max-width: calc(100% - 2em);
+	}
+
+}
+
+@media screen and (max-width: 360px) {
+
+	#time {
+		max-width: 100%;
+	}
+
+}
 h1{
 	font-family: 'Libre Baskerville', serif;
 }
@@ -3874,18 +3899,18 @@ input, select, textarea {
 		margin: 0 auto;
 	}
 
-		@media screen and (max-width: 480px) {
+	@media screen and (max-width: 480px) {
 
-			#wrapper {
-				max-width: calc(100% - 2em);
-			}
-
+		#wrapper {
+			max-width: calc(100% - 2em);
 		}
 
-		@media screen and (max-width: 360px) {
+	}
 
-			#wrapper {
-				max-width: 100%;
-			}
+	@media screen and (max-width: 360px) {
 
+		#wrapper {
+			max-width: 100%;
 		}
+
+	}
