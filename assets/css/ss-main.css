@@ -3087,7 +3087,7 @@ input, select, textarea {
 	@media screen and (min-width: 981px) {
 		.spotlight .image div {
 			background-size: cover;
-			background-image: url("../../images/summerschool/portrait_machine.jpg");
+			background-image: url("../../images/summerschool/robo.jpg");
 			height: 35em;
 			width: 20em;
 		}
@@ -3097,7 +3097,7 @@ input, select, textarea {
 
 		.spotlight .image div {
 			background-size: cover;
-			background-image: url("../../images/summerschool/portrait_machine.jpg");
+			background-image: url("../../images/summerschool/robo.jpg");
 			height: 28em;
 			width: 15em;
 		}
