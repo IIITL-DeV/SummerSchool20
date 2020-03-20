@@ -49,9 +49,14 @@ dd{
 	float: left;
 }
 #sl{
-	margin-left: 47%;
-	margin-bottom: 2%;
-	height: 5vw;
+	margin: 2%;
+	margin-top: 1%;
+	height: 10vw;
+}
+#slspecial{
+	margin: 2%;
+	margin-top: 1%;
+	height: 14vw;
 }
 iframe{
 	height: 90%;
@@ -3913,4 +3918,11 @@ input, select, textarea {
 			max-width: 100%;
 		}
 
+	}
+
+
+	/*timeline*/
+
+	#change_20{
+		text-align: justify;
 	}
