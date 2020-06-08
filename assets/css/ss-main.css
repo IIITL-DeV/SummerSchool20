@@ -6,6 +6,38 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+.teal {
+	background-color: teal !important;
+}
+
+.cyan {
+	background-color: darkcyan !important;
+}
+
+.steelblue {
+	background-color: steelblue;
+}
+
+.orange {
+	background-color: orange !important;
+}
+
+.firebrick {
+	background-color: firebrick !important;
+}
+
+.lime {
+	background-color: lime !important;
+}
+
+.limegreen {
+	background-color: limegreen !important;
+}
+
+.plum {
+	background-color: plum !important;
+}
+
 
 html, body, div, span, applet, object,
 iframe,h2, h3, h4, h5, h6, p, blockquote,
