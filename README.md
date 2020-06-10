@@ -1,4 +1,4 @@
-# Summer School
+# Online Workshop
 
 ### Workshop Website
 
