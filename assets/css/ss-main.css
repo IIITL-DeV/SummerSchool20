@@ -6,6 +6,38 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+.teal {
+	background-color: teal !important;
+}
+
+.cyan {
+	background-color: darkcyan !important;
+}
+
+.steelblue {
+	background-color: steelblue;
+}
+
+.orange {
+	background-color: orange !important;
+}
+
+.firebrick {
+	background-color: firebrick !important;
+}
+
+.lime {
+	background-color: lime !important;
+}
+
+.limegreen {
+	background-color: limegreen !important;
+}
+
+.plum {
+	background-color: plum !important;
+}
+
 
 html, body, div, span, applet, object,
 iframe,h2, h3, h4, h5, h6, p, blockquote,
@@ -67,7 +99,7 @@ a{
 #sl{
 	margin: 2%;
 	margin-top: 1%;
-	height: 10vw;
+	height: 12vw;
 }
 #slspecial{
 	margin: 2%;
@@ -86,9 +118,14 @@ footer, header, hgroup, menu, nav, section {
 }
 
 ul img{
-	border-radius: 20%;
-	height: 150px;
-	width: 160px;
+	border-radius: 15%;
+	padding: 5px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #2a2a2a2a;
+	box-shadow: 0px 10px 10px #2a2a2a2a;
+	height: 200px;
+	width: 200px;
 }
 
 #schedule{
@@ -3799,9 +3836,9 @@ input, select, textarea {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		padding: 5em 5em 3em 5em ;
+		padding: 5em 5em 1em 5em ;
 		width: calc(100% + 2em);
-		margin: 0 0 3em -2em;
+		margin: 0 0 1em -2em;
 	}
 
 		#footer > * {
@@ -3819,7 +3856,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			#footer {
-				padding: 4em 4em 2em 4em ;
+				padding: 4em 4em 1em 4em ;
 			}
 
 		}
@@ -3827,7 +3864,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			#footer {
-				padding: 4em 3em 2em 3em ;
+				padding: 4em 3em 1em 3em ;
 				display: block;
 				margin: 0 0 3em 0;
 				width: 100%;
@@ -3848,7 +3885,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#footer {
-				padding: 3em 2em 1em 2em ;
+				padding: 3em 2em 0.5em 2em ;
 			}
 
 		}
@@ -3856,7 +3893,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			#footer {
-				padding: 3em 1.5em 1em 1.5em ;
+				padding: 3em 1.5em 0.5em 1.5em ;
 			}
 
 		}
