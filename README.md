@@ -1,4 +1,4 @@
-# Online International Workshop
+# Online Workshop
 
 ### Workshop Website
 
