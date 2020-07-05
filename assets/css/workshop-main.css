@@ -154,6 +154,22 @@ blockquote:before, blockquote:after, q:before, q:after {
 	content: none;
 }
 
+.features > li > a {
+	position: relative;
+	padding-bottom: 1px;
+	text-decoration-style: dashed;
+}
+
+/* 
+.features > li > a > h1, h2, h3, h4 {
+	border-style: solid;
+    border-width: 0 0 1px 0;
+    padding-bottom: 0.2em;
+    margin-bottom: 0.2em;
+    width: fit-content;
+	border-image: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66)) 1;
+} */
+
 /* table {
 	border-collapse: collapse;
 	border-spacing: 0;
